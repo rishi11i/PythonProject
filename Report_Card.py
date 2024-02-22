@@ -1,0 +1,15 @@
+#wap to input marks of 5 subject of a student and print their marks as well as marks of each subject.
+mos=list()
+m1=int(input("Enter Marks of Sub1  : "))
+m2=int(input("Enter Marks of Sub2  : "))
+m3=int(input("Enter Marks of Sub3  : "))
+m4=int(input("Enter Marks of Sub4  : "))
+m5=int(input("Enter Marks of Sub5  : "))
+mos.append(m1)
+mos.append(m2)
+mos.append(m3)
+mos.append(m4)
+mos.append(m5)
+print("Marks of Each Subject is : ",mos)
+totalmarks=mos[0]+mos[1]+mos[2]+mos[3]+mos[4]
+print("Total Marks is : ",totalmarks)
